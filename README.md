@@ -49,8 +49,19 @@ As Dr. Dubs noted, while the HP 200LX's PCMCIA controller is proprietary, Socket
 | File | Description |
 |------|-------------|
 | `WINI200.C` | C source code for the hard disk boot sector loader (Borland Turbo C++) |
+| `NEWBOOT.C` | C source code for NEWBOOT.EXE, the sector writer |
+| `PUT13.C` | C source code for PUT13.EXE, the INT13 handler loader |
+| `BIOS256.C` | C source code for BIOS256.EXE, the 256-byte sector reader |
+| `BIOS512.C` | C source code for BIOS512.EXE, the 512-byte sector reader |
+| `FINDBT2.C` | C source code for FINDBT2.EXE, the disk pattern search tool |
+| `POKE001.C` | C source code for POKE001.EXE, the boot partition table writer |
+| `POKE004.C` | C source code for POKE004.EXE, the sector patch tool |
 
-*Note: Dr. Dubs stated that source code was provided for all tools. If you have the additional source files, please contribute them.*
+### Archive (`archive/`)
+
+| File | Description |
+|------|-------------|
+| `200PRGS.ZIP` | Original 1998 archive containing all tools, source code, and documentation, preserved as-is |
 
 ### Documentation (`docs/`)
 
